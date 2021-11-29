@@ -23,8 +23,8 @@ def get_data():
     # Get sensor readings
     temp_val = int(sensor.temperature * 100)
     print("\nTemperature: %0.1f C" % sensor.temperature)
-    humid_val = int(sensor.humidity * 100)
-    print("Humidity: %0.1f %%" % sensor.humidity)
+    humid_val = int(sensor.relative_humidity * 100)
+    print("Humidity: %0.1f %%" % sensor.relative_humidity)
 
     sensor_data[0] = FEATHER_ID
     # Temperature data
