@@ -1,2 +1,2 @@
 board
-adafruit_ahtx0
+adafruit-circuitpython-ahtx0
